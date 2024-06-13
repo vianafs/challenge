@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Points</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Formula E - Watch Points</h1>
+        <div class="button" id="authButtons">
+            <button id="loginBtn">Login</button>
+        </div>
+    </header>
+    <nav class="seçao">
+        <a href="recompensas.html">Recompensas</a>
+        <a href="detalhes.html">Detalhes</a>
+        <a href="noticias.html">Notícias</a>
+    </nav>
+    <div id="userGreeting" style="display:none;">
+        <p>Bem-vindo, <span id="userName"></span>!</p>
+    </div>
+    <div class="content">
+        <div class="video">
+            <iframe width="700" height="500" src="https://www.youtube.com/embed/1aQNbLU9UPQ?si=UiNua7KJtYQcgkot"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="news-section">
+            <h2>Ultimas Notícias</h2>
+            <div class="news-item">
+                <img src="https://resources.formula-e.pulselive.com/photo-resources/2024/06/12/47743108-3739-4104-8828-4c1af14f71e4/1020069406-LAT-20240316-EPS1004_182409SB1_4843.jpg?width=336&height=189"
+                    alt="News Image">
+                <div class="news-content">
+                    <p><strong>SEASON 11 CALENDAR: The Formula E races in 2024/2025</strong></p>
+                    <p>APRESENTA • 12 JUN</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://resources.formula-e.pulselive.com/photo-resources/2024/06/11/b4eb6872-78ba-4776-9759-5d8fe48f63d1/JL309973.jpg?width=336&height=189"
+                    alt="News Image">
+                <div class="news-content">
+                    <p><strong>FIA confirm new Formula E Manufacturers' Title from...</strong></p>
+                    <p>NOTICIAS • 11 JUN</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://resources.formula-e.pulselive.com/photo-resources/2024/06/10/8836a062-ee4c-4b83-b686-7f51066b8be0/1018705877-LAT-20210709-EPS710_214011SG1_2634.jpg?width=336&height=189"
+                    alt="News Image">
+                <div class="news-content">
+                    <p><strong>10 of the most iconic racing locations Formula E has visited</strong></p>
+                    <p>APRESENTA • 11 JUN</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://resources.formula-e.pulselive.com/photo-resources/2023/11/28/408282cf-0dbc-40cb-9e15-32e4d1bf6cb9/CWRRYSVY.jpg?width=336&height=189"
+                    alt="News Image">
+                <div class="news-content">
+                    <p><strong>RACE REPLAY: The last time Formula E raced in Miami</strong></p>
+                    <p>FULL RACE • 11 JUN</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://resources.formula-e.pulselive.com/photo-resources/2024/06/11/f034f78e-8aeb-45a1-87de-7e7a6dc4b06d/1020066296-LAT-20240316-EPS1004_170455SB1_3946.jpg?width=336&height=189" alt="News Image">
+                <div class="news-content">
+                    <p><strong>Formula E announces Season 11 calendar as Miami returns and...</strong></p>
+                    <p>NOTICIAS • 11 JUN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="replays-title">Replays</h2>
+    <div class="video2">
+        <iframe width="560" height="338" src="https://www.youtube.com/embed/55s4_Vwnt-A?si=juXp7KgBzwakkNTx"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <h2 class="pontos-title">Sobre os Pontos</h2>
+    <p class="pontos">Nossa ideia é criar um sistema que armazena pontos de um usuário de acordo com a quantidade de tempo assistida na livestream da fórmula E.<br>
+        Os pontos serão arrecadados por minutagem assistida, assim possibilitando a troca por recompensas em nossa loja</p>
+    
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Tech Mahindra
+    </footer>
+</body>
+
+</html>
