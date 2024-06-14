@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e10600;
+    color: white;
+    padding: 10px 20px;
+}
+
+.title {
+    margin: 0;
+}
+
+.seçao {
+    background-color: #e10600;
+    padding: 10px;
+    text-align: center;
+}
+
+.seçao a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+footer {
+    background-color: #e10600;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+}
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+.text-carousel {
+    max-width: 600px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.text-carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.text-carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.text-carousel-item p {
+    font-size: 1.2em;
+    color: #333;
+}
+.other-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.other-news h2 {
+    color: #e10600;
+    font-weight: bold;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news-item {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-item h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #e10600;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
