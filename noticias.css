@@ -10,7 +10,9 @@ header {
     color: white;
     padding: 10px 20px;
 }
-
+.news{
+    color: #e10600;
+}
 .title {
     margin: 0;
 }
