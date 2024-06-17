@@ -3,45 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e10600;
+    color: white;
+    padding: 10px 20px;
+}
 body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
-
-header {
-    width: 100%;
-    background-color: #D82D2D;
-    color: #fff;
-    position: relative;
-}
-
-header .header-content {
-    margin: 0 auto;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo img {
-    height: 80px;
-}
-
-header h1 {
-    font-size: 1.5em;
-}
-
-header button {
-    background-color: #A32727;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
 main {
     flex: 1;
     padding: 20px 0;
@@ -97,11 +73,27 @@ p{
 }
 
 footer {
+    background-color: #e10600;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
     width: 100%;
-    background-color: #A32727;
-    color: #fff;
-    padding: 10px 900px;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
 }
-footer .sponsors img {
-    height: 80px;
+
+.seçao {
+    background-color: #e10600;
+    padding: 10px;
+    text-align: center;
+}
+
+.seçao a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
 }
