@@ -1,38 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #D82D2D;
-    color: #fff;
+    background-color: #e10600;
+    color: white;
     padding: 10px 20px;
 }
-
-header .logo img {
-    height: 60px;
-}
-
-header h1 {
-    font-size: 1.5em;
-}
-
-header button {
-    background-color: #A32727;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
 nav {
     background-color: #E53935;
     color: #fff;
@@ -47,7 +24,7 @@ main {
     padding-bottom: 150px;
 }
 
-main .product img{
+main .product img {
     width: 300px;
     height: 300px;
     padding-bottom: 5px;
@@ -83,19 +60,28 @@ main .product img{
 }
 
 footer {
-    background-color: #A32727;
-    color: #fff;
-    padding: 10px 20px;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+    background-color: #e10600;
+    color: white;
+    text-align: center;
+    padding: 10px;
     position: fixed;
+    width: 100%;
     bottom: 0;
     left: 0;
+    font-weight: bold;
 }
 
-footer .sponsors img {
-    height: 60px;
+
+.seçao {
+    background-color: #e10600;
+    padding: 10px;
+    text-align: center;
 }
 
+.seçao a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
